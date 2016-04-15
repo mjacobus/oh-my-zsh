@@ -70,6 +70,7 @@ alias gpristine='git reset --hard && git clean -dfx'
 alias gcm='git checkout master'
 alias gcmsg='git commit -m'
 alias gco='git checkout'
+alias gcob='git checkout -b'
 alias gcount='git shortlog -sn'
 compdef gcount=git
 alias gcp='git cherry-pick'
